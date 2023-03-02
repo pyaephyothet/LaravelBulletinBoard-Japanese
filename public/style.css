@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Japanese', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border: 0.2px solid;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-select {
+    padding: 0.67rem 1rem;
+}
+
+::placeholder,
+.form-select {
+    font-size: 0.6rem;
+}
+
+button {
+    background: #000066 !important;
+    color: #fff !important;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 0 !important;
+}
+
+.page-ttl {
+    color: #000066;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+
+/************************** login.blade **********************/
+
+.link {
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.heading {
+    color: #000066;
+    font-weight: 900;
+}
+
+/*********************** home.blade ************************/
+
+.wrapper {
+    background-color: #f2f2f2;
+}
+
+.home-ttl {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.home-count {
+    color: #000066;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.home-count small {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/******************** user_list.blade *************************/
+
+.input-gp *,
+.gp-btn button,
+.gp-btn .back-btn {
+    display: inline-block;
+    margin-right: 2%;
+    width: 12.5%;
+}
+
+.input-gp *:last-child {
+    margin-right: 0;
+}
+
+.list_form {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.search-form {
+    min-width: 985px;
+    background-color: #f2f2f2;
+}
+
+.gp-btn button,
+.gp-btn .back-btn,
+.login-btn {
+    border: 0.1rem solid #000066;
+    color: #000066;
+    font-weight: 900;
+}
+
+.gp-btn button:hover,
+.gp-btn .back-btn:hover,
+.login-btn:hover {
+    background-color: #f2f2f2 !important;
+    color: #000066 !important;
+    border-color: #000066;
+}
+
+.gp-btn .clear-btn {
+    border: 0.1rem solid #000066;
+    background-color: #fff !important;
+    color: #000066 !important;
+    font-weight: 900;
+    width: 12.5%;
+    border-radius: 0;
+}
+
+.user-list_table {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 985px;
+    font-size: 0.8rem;
+}
+
+.table thead {
+    background-color: #f2f2f2;
+}
+
+.table span {
+    display: block;
+    padding: 0.5rem;
+}
+
+.table th span:first-child,
+.table td span:first-child {
+    border-bottom: 1px solid;
+}
+
+.table th,
+.table td {
+    line-height: 1;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.table .address-field {
+    max-width: 8rem;
+    line-break: anywhere;
+}
+
+.modal-footer button {
+    width: 40%;
+}
+
+.modal-footer .delete-btn {
+    color: #fff;
+    width: 40%;
+}
+
+.form-check-input[type=checkbox] {
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
+.form-check-input:checked {
+    background-color: #000066;
+}
+
+/*************** user_create.blade & user_confirm.blade *******************/
+
+.form-deco table th {
+    background-color: #f2f2f2;
+}
+
+.form-deco table input,
+.form-deco table label,
+.form-deco textarea,
+.form-deco .form-select,
+.form-deco ::placeholder {
+    line-height: 1;
+    font-size: 1rem;
+}
+
+.form-deco input,
+.form-deco textarea,
+.form-deco select {
+    width: 35%;
+}
+
+.profile-img {
+    max-width: 56%;
+}
+
+.preview {
+    height: 6rem;
+    overflow: hidden;
+    border: 0.1rem solid #000066;
+    width: 6rem;
+    object-fit: cover;
+}
+
+.preview img {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.profile-img .image-path {
+    width: 63%;
+}
+
+.profile-img .image-path input[type="text"] {
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+}
+
+.profile-img input[type="file"] {
+    display: none;
+}
+
+.profile-img label {
+    display: block;
+    padding: 0.5rem;
+    border: 0.1rem solid #000066;
+    background: #fff;
+    color: #000066;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+}
+
+.my-form table td p input {
+    border: none !important;
+    background: none;
+    font-size: 1rem;
+    outline: none;
+    user-select: none;
+}
+
+.my-form textarea {
+    font-size: 1rem;
+    outline: none !important;
+}
+
+.my-form .post-area {
+    border: none !important;
+    font-size: 1rem;
+}
+
+/******************** post_list.blade *************************/
+.post-column {
+    width: 35% !important;
+}
+
+.form-switch {
+    padding: 0 !important;
+}
+
+.form-switch .form-check-input[type=checkbox] {
+    margin-left: 0.4rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+/******************** navbar.blade *************************/
+
+.navbar {
+    background: #000066;
+}
+
+.navbar * {
+    color: #fff;
+    font-weight: 700;
+}
+
+.active,
+.navbar-nav .nav-item:hover,
+.navbar-nav .nav-item:focus {
+    background: #f2f2f2;
+
+}
+
+.navbar-nav .nav-item.active a {
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -25px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    color: #000;
+    border-bottom: 1px solid;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    color: #fff;
+}
+
+.navbar-toggler {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.navbar-nav {
+    padding: 1.5rem;
+    text-align: center;
+    gap: 2rem !important;
+}
+
+.navbar-collapse .navbar-nav .dropdown-menu {
+    left: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-collapse .navbar-nav .dropdown-menu li:hover {
+    background: #000066;
+}
+
+.navbar-collapse .navbar-nav .dropdown-menu li a:hover {
+    background: #000066 !important;
+    color: #fff;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0.155em !important;
+    border-top: 0.5em solid !important;
+    border-right: 0.4em solid transparent !important;
+    border-left: 0.4em solid transparent !important;
+}
+
+.navbar-collapse .dropdown-toggle:focus {
+    background-color: #f2f2f2 !important;
+    color: #000 !important;
+}
+
+body .px-lg-5 {
+    padding-right: 4.7rem !important;
+    padding-left: 3rem !important;
+}
+
+/**hamberger menu */
+
+.navbar-toggler {
+    position: relative;
+    height: 20px;
+    transition: .5s ease-in-out;
+    width: 25px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    position: relative;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background: #fff;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+    width: 100%;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    position: absolute;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    position: absolute;
+    top: 10px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    position: absolute;
+    top: 20px;
+    transform: rotate(0deg);
+}
+
+
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    top: inherit;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
+}
+
+
+.navbar-toggler.collapsed .toggler-icon {
+    background: #fff;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover,
+.nav-link:focus {
+    color: #f2f2f2 !important;
+}
+
+.modal-body {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.pagination li a,
+.pagination li span {
+    border: 1px solid #000 !important;
+    color: #000066 !important;
+    font-weight: 500;
+    border-radius: 0 !important;
+
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #000066 !important;
+    color: #fff !important;
+}
+
+.error-alert {
+    padding: 0.2rem 1rem !important;
+    font-size: 0.6rem !important;
+}
+
+.alert-msg {
+    font-size: 0.7rem;
+}
+
+.alert-btn {
+    background: none !important;
+    color: #000 !important;
+}
