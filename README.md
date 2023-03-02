@@ -1,0 +1,1 @@
+# LaravelBulletinBoard-Japanese
